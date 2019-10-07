@@ -1,0 +1,10 @@
+name: "Test typescript-action"
+on:
+  release:
+    types: [created, edited]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hello world"
